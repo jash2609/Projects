@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart Rider</string>
+    <string name="TrackingData">Tracking data...</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_wait">WaitActivity</string>
+    <string name="title_activity_main_activity2">title_activity_main_activity2</string>
+    <string name="content">Hope you enjoyed!</string>
+    <string name="share">Share your Heart Rate!</string>
+    <string name="rate">Rate your ride!</string>
+    <string name="exit_info">Exit</string>
+
+</resources>

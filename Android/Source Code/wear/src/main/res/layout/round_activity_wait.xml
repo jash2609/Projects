@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.github.pocmo.sensordashboard.WaitActivity"
+    tools:deviceIds="wear_round"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:id="@+id/textView" />
+    <com.github.teamasia.heartrider.before.TimerTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:id="@+id/timer_text_view"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Click to Go!"
+        android:textSize="24dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/detectButton"
+        android:layout_below="@id/timer_text_view"
+        android:visibility="invisible"/>
+</RelativeLayout>
+

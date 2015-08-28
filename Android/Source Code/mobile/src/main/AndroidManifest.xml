@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.teamasia.heartrider" >
+
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/heart_rider_logo2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c6454f55e5f244f5189b3f0dad93f91583bce7ac" />
+
+        <activity
+            android:name="com.github.teamasia.heartrider.DataPlotActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.jash.TwitterLoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.ui.ExportActivity"
+            android:label="@string/action_export"
+            android:parentActivityName="com.github.teamasia.heartrider.DataPlotActivity" >
+        </activity>
+
+        <service android:name="com.github.teamasia.heartrider.SensorReceiverService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.github.teamasia.heartrider.jash.SendingTwitterActivity"
+            android:label="@string/title_activity_second"
+            android:parentActivityName="com.github.teamasia.heartrider.jash.TwitterLoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.teamasia.heartrider.jash.TwitterLoginActivity" />
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.jash.RatingActivity"
+            android:label="@string/title_activity_third"
+            android:parentActivityName="com.github.teamasia.heartrider.jash.TwitterLoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.teamasia.heartrider.jash.TwitterLoginActivity" />
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.jash.DisplayResult"
+            android:label="@string/title_activity_display_result"
+            android:parentActivityName="com.github.teamasia.heartrider.jash.RatingActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.teamasia.heartrider.jash.RatingActivity" />
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.StartingActivity"
+            android:label="@string/title_activity_starting" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.TermsAndConditionActivity"
+            android:label="@string/title_activity_terms_and_condition" >
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.MedicalActivity"
+            android:label="@string/title_activity_medical" >
+        </activity>
+        <activity
+            android:name="com.github.teamasia.heartrider.FinishMedicalActivity"
+            android:label="@string/title_activity_finish_medical" >
+        </activity>
+    </application>
+
+</manifest>

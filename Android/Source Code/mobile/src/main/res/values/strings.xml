@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart Rider</string>
+    <string name="action_export">Export</string>
+    <string name="tweet_your_heart_rate">Tweet your heart rate!</string>
+    <string name="devices">Devices</string>
+    <string name="device_name_1">Device 1</string>
+    <string name="device_name_2">Device 2</string>
+    <string name="rate_title">Lets rate it!</string>
+    <string name="steps">PLEASE RATE YOUR RIDE</string>
+    <string name="hello">You have tweeted the image below. All desired tasks accomplished. Yay!!!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="label">Someone else</string>
+    <string name="title">Someone else</string>
+    <string name="content">Is also Excited!!!</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+
+    <string name="hello_world1">Rate your Ride!</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">SUBMIT</string>
+    <string name="overall">  Overall?  </string>
+    <string name="scary">Scary? </string>
+    <string name="exciting">Exciting? </string>
+
+    <string name="yes">Yes </string>
+    <string name="no">No</string>
+    <string name="repeat">Will you repeat?</string>
+    <string name="title_activity_display_result">DisplayResult</string>
+    <string name="result">Thank you for your feedback.</string>
+    <string name="twitter_login">Please login to tweet!</string>
+    <string name="title_activity_starting">HeartRider</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="browse_title"><![CDATA[Videos by Your Company]]></string>
+    <string name="related_movies">Related Videos</string>
+    <string name="vertical_grid_title"><![CDATA[Vertical Video Grid]]></string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="init_text">00:00</string>
+    <string name="play_pause_description">Play Pause Button</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_video_found">No video was found</string>
+    <string name="about_app">About DemoCast Player</string>
+    <string name="version">Version: %1$s</string>
+    <string name="popular_header">Popular Videos</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+    <string name="should_start">shouldStart</string>
+    <string name="start_position">startPosition</string>
+    <string name="search_results">Search Results</string>
+
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="oops">Oops</string>
+    <string name="title_activity_terms_and_condition">TermsAndConditionActivity</string>\
+
+    <string name="condition_content">By signing the consent section of this Patient Consent Form, you have agreed that you have given your informed consent to
+the collection, use and/or disclosure of your personal information for the purposes that are listed. If a new purpose arises for
+the use and/or disclosure of your personal information, we will seek your approval in advance.
+Your information may be accessed by regulatory authorities under the terms of the Royal Rollercoaster Organization
+for the purposes of the research under RO, and forthe defence of a legal issue.
+Our office will not under any conditions supply your insurer with your confidential medical history. In the event this
+kind of a request is made, we will forward the information directly to you for review, and for your specific consent.
+When unusual requests are received, we will contact you for permission to release such information. We may also
+advise you if such a release is inappropriate.
+You may withdraw your consent for use or disclosure of your personal information, and we will explain the
+ramifications of that decision, and the process. </string>
+    <string name="two">I may receive communication from HeartRider and can change my notification preferences.</string>
+    <string name="three">I grant HeartRider the access to monitor my heart rate.</string>
+    <string name="male">Male</string>
+    <string name="f">Female</string>
+    <string name="n">Neutral</string>
+    <string name="gender">Gender</string>
+    <string name="age">*Age</string>
+    <string name="heart">*Heart condition</string>
+    <string name="done">DONE</string>
+    <string name="enjoy">You are all set. Have a great time!!!</string>
+    <string name="other">Please fill all required fields *</string>
+    <string name="terms_title">TERMS AND CONDITIONS</string>
+    <string name="title_activity_medical">MedicalActivity</string>
+    <string name="medical_title"> MEDICAL HISTORY FORM </string>
+    <string name="title_activity_finish_medical">FinishMedicalActivity</string>
+    <string name="help_title">GETTING STARTED</string>
+    <string name="help_content">Welcome to use Heart Rider! Here is a help documentation for you:\n\n
+1.Tap the welcome page on the watch, now you can slide up and down to check different roller coasters, slide left and right to check informations such as distance and estimated waiting time.
+\n\n2.Slide all the way left, tap “go to line”, now you are one the line of this ride!
+\n\n3.Time is up! Now “click to go” to the ride, the watch will monitor your heart rate and accelerations for you.
+\n\n4.During the ride, you will be notified with vibrations when your heart rate reach the local maximums. So dont be afraid!
+\n\n5.After the ride, you can use the phone to check the data and graphs, and feel free to share and rate the roller coaster!
+\n\nEnjoy you ride!</string>
+
+
+</resources>
