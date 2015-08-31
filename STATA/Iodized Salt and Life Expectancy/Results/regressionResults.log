@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Jash\Documents\196\Final Project\Command Files\../Results/regressionResults.log
+  log type:  text
+ opened on:  14 May 2015, 00:50:16
+
+.  
+.  *Generate two regression tables
+.  
+.  ************** Basic Analysis ********************
+.  * LifeExpectancy = A + B(saltConsumption) + Control(Phsyicians, Expd) + E
+.  reg lifeExpectancy saltConsumption physicians healthExpenditure
+
+      Source |       SS       df       MS              Number of obs =     117
+-------------+------------------------------           F(  3,   113) =   32.70
+       Model |  5023.87997     3  1674.62666           Prob > F      =  0.0000
+    Residual |   5787.6852   113  51.2184531           R-squared     =  0.4647
+-------------+------------------------------           Adj R-squared =  0.4505
+       Total |  10811.5652   116   93.203148           Root MSE      =  7.1567
+
+-----------------------------------------------------------------------------------
+   lifeExpectancy |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+------------------+----------------------------------------------------------------
+  saltConsumption |   .0440259   .0267453     3.05   0.003    -.0089614    .0970132
+       physicians |   3.647722   .6195417     5.89   0.000     2.420298    4.875146
+healthExpenditure |   .0207372   .0058853     3.52   0.001     .0090774    .0323971
+            _cons |   53.31955   1.777447    30.00   0.000     49.79811      56.841
+-----------------------------------------------------------------------------------
+
+.  
+.  ************** GDP Analysis ***************
+.  * LifeExpectancy = A + B(saltConsumption) + B(poor) + C(poorSaltConsumption)+ E
+.  reg lifeExpectancy saltConsumption poor poorSaltConsumption
+
+      Source |       SS       df       MS              Number of obs =     128
+-------------+------------------------------           F(  3,   124) =   25.97
+       Model |  4442.55737     3  1480.85246           Prob > F      =  0.0000
+    Residual |  7071.48141   124  57.0280759           R-squared     =  0.3858
+-------------+------------------------------           Adj R-squared =  0.3710
+       Total |  11514.0388   127  90.6617227           Root MSE      =  7.5517
+
+-------------------------------------------------------------------------------------
+     lifeExpectancy |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+--------------------+----------------------------------------------------------------
+    saltConsumption |   .1060304   .0336858     3.15   0.002     .0393567     .172704
+               poor |  -3.873459   3.500186    -1.11   0.271    -10.80131     3.05439
+poorSaltConsumption |  -.1196411   .0549817    -2.18   0.031    -.2284653   -.0108169
+              _cons |   59.71706   2.330318    25.63   0.000     55.10471    64.32941
+-------------------------------------------------------------------------------------
+
+.  
+.  log close
+      name:  <unnamed>
+       log:  C:\Users\Jash\Documents\196\Final Project\Command Files\../Results/regressionResults.log
+  log type:  text
+ closed on:  14 May 2015, 00:50:16
+-------------------------------------------------------------------------------------------------------------------------------------------

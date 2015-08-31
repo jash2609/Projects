@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Jash\Documents\196\Final Project\Command Files\../Results/datasetSummary.log
+  log type:  text
+ opened on:  13 May 2015, 23:17:53
+
+. use "../Constructed Data/cleanedData.dta"
+
+. 
+. foreach var of varlist _all {
+  2.         describe `var'
+  3. }
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+isocode         str3    %9s                   Code of each country
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+gdpPerCapita    float   %9.0g                 GDP per capita (current US$)
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+physicians      float   %9.0g                 Physicians (per 1,000 people)
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+healthExpendi~e float   %9.0g                 Health expenditure per capita (current US$)
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+saltConsumption float   %9.0g                 Consumption of iodized salt (%of households)
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+lifeExpectancy  float   %9.0g                 Life expectancy at birth (years)
+
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+decade_cat      long    %8.0g      decade_cat
+                                              Categorizing decade ex. 1970s = 2, 2000s = 5
+
+. 
+. *Close the log file
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Jash\Documents\196\Final Project\Command Files\../Results/datasetSummary.log
+  log type:  text
+ closed on:  13 May 2015, 23:17:53
+-------------------------------------------------------------------------------------------------------------------------------------------
