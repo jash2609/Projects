@@ -21,4 +21,4 @@ To generate results first compile all the files. And then in your terminal enter
 python trends.py -m [WORD OR PHRASE] -t [TWEETS DATABASE FILE NAME]
 -m and -f are flags to specify words and file name.
 ex:
-python trends.py -m chistman -t tweets2011.txt
+python trends.py -m chistmas -t tweets2014.txt
